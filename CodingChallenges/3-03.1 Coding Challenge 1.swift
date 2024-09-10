@@ -36,7 +36,6 @@ struct __03_1_Coding_Challenge_1: View {
                 
             }
         }
-        .swipeActions()
     }
 }
 

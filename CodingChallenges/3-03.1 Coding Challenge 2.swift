@@ -9,9 +9,35 @@ import SwiftUI
 
 struct __03_1_Coding_Challenge_2: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            
+            Spacer()
+            
+            Text("Coding Challenge Listen")
+                .bold()
+            
+            List {
+                
+                Section("Lehrer") {
+                    
+                    Text("Max Mustermann")
+                    Text("Beate Beispiel")
+                    Text("Anna Musterfrau")
+                    Text("Paul Prototyp")
+                    Text("Clara Beispiel")
+                    Text("David Demo")
+                    Text("Eva Exemplar")
+                    Text("Gina Test")
+                    Text("Hans Beispielmann")
+                }
+                Section("Schüler") {
+                    
+                    Text("Leo Leher")
+                    Text("Peter Schlaumeier")
+                    
+                }
+            }
+        }
     }
-}
 
 #Preview {
     __03_1_Coding_Challenge_2()
